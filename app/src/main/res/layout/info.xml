@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore More"
+            android:paddingTop="30sp"
+            android:paddingBottom="30sp"
+            />
+        <WebView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/web"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/toi"
+                android:id="@+id/toi"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/indiatoday"
+                android:id="@+id/indiatoday"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/gadgets_360"
+                android:id="@+id/gadgets360"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cricbuzz"
+                android:id="@+id/cricbuzz"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/espn"
+                android:id="@+id/espn"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/goodreads"
+                android:id="@+id/goodreads"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quara"
+                android:id="@+id/quara"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/imdb"
+                android:id="@+id/imdb"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/justdial"
+                android:id="@+id/justdial"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout></ScrollView>

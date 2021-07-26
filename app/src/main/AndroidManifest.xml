@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sabka_malik_ek">
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/all_in_one"
+
+        android:roundIcon="@drawable/all_in_one"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:label="All in One"
+        >
+        <activity android:name=".MainActivity">
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".shop"
+            android:label="@string/category_shop"
+            />
+        <activity android:name=".food"
+            android:label="@string/category_food"/>
+        <activity android:name=".buy"
+            android:label="@string/category_buy_and_sell"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".info"
+            android:label="@string/category_info"/>
+        <activity android:name=".health"
+            android:label="@string/category_health"/>
+        <activity android:name=".booking"
+            android:label="@string/category_booking"></activity>
+
+    </application>
+
+</manifest>

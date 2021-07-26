@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">sabka_Malik_ek</string>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_shop">shop</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_food">food</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_buy_and_sell">buy</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_info">info</string>
+
+    <string name="category_health">health</string>
+
+
+    <string name="category_booking">booking</string>
+</resources>

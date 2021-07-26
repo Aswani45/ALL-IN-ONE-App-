@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:layout_gravity="center"
+
+         android:textSize="18dp"
+
+         android:textColor="#000000"
+         android:textStyle="bold"
+         android:layout_marginTop="25dp"
+
+         android:text="All in one"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textColor="#616161"
+
+        android:text="select a category"
+        />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/shop"
+
+
+                />
+
+            <ImageButton
+                android:id="@+id/food"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+
+                android:maxWidth="150dp"
+
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/food"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/buy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/buy" />
+
+            <ImageButton
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:maxWidth="150dp"
+
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/infoearth" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/health"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/helth" />
+
+            <ImageButton
+                android:id="@+id/booking"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:maxWidth="150dp"
+
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+
+                android:src="@drawable/booking" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

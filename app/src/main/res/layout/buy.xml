@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="buy and sell"
+            android:paddingTop="30sp"
+            android:paddingBottom="30sp"
+            />
+        <WebView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/web"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/olx"
+                android:id="@+id/olx"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/quikr"
+                android:id="@+id/quikr"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/droom"
+                android:id="@+id/droom"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/cardekho"
+                android:id="@+id/cardekho"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/carwale"
+                android:id="@+id/carwale"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bikedekho"
+                android:id="@+id/bikedekho"
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bikewale"
+                android:id="@+id/bikewale"
+
+
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout></ScrollView>
